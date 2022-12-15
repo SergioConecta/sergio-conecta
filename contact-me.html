@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contáctame.</title>
+    <link rel="stylesheet" href="CSS/styles.css"/>
+    <link rel="icon" href="favicon.ico"/>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat:wght@300&family=Sacramento&display=swap" rel="stylesheet">
+</head>
+<body>
+   <div class="top-container">
+    <img class="top-cloud" src="images/cloud.png" alt="Nube gris">
+        <h1>Sergio Glez.</h1> 
+        <h2>Soy electricista y diseñador Web</h2>
+        <img class="bottom-cloud" src="images/cloud.png" alt="Nube gris">
+        <img src="images/mountain.png" alt="Montaña">
+   </div>
+   <br>
+   <form action="mailto:sergio.glez.conecta@gmail.com" method="post" enctype="text/plain">
+        <label for="nombre">Nombre:</label>
+		<br>
+		<input type="text" name="nombre" value="" required  maxlength="30" placeholder="Ramón"/>
+		<br>
+		<label for="apellido">Apellido:</label>
+		<br>
+		<input type="text" name="apellido" value="" required  maxlength="30" placeholder="Pérez Pérez"/>
+        <br>
+		<label for="asunto">Asunto:</label>
+		<br>
+		<input type="text" name="asunto" value="" required  maxlength="30" placeholder="Contactemos."/>
+        <br>
+    <div class="row">
+        <label class="required" for="email">Introduce tu email:</label><br />
+        <input id="email" class="input" name="email" type="text" value="" size="30"  placeholder="ramonperezperez@email.com"/><br />
+        <span id="email_validation" class="error_message"></span>
+    </div>
+    <div class="row">
+        <label class="required" for="message">Escribe tu mensaje:</label><br />
+        <textarea id="message" class="input" name="message" rows="7" cols="30" maxlength="300" placeholder="Deja aquí tu mensaje con un máximo de 300 caracteres."></textarea><br />
+        <span id="message_validation" class="error_message"></span>
+    </div>
+        <br>
+	    <input name="submit" type="submit" href="mailto:sergio.glez.conecta@gmail.com" value="Enviar"/>
+    </form>
+    <h4>MIS REDES SOCIALES.</h4>
+    <img class="tagGif2" src="images/flecha-hacia-abajo.gif" alt="flecha">
+    <div class="bottom-container">
+        <a class="index-button" href="index.html">Volver a inicio</a>
+		<a class="footer-link" href="https://www.linkedin.com/in/sergio-glez-529724259/">LinkedIn</a>
+		<a class="footer-link" href="https://twitter.com/Segio86948135">Twitter</a>
+		<a class="footer-link" href="http://www.pfae.puertodelacruz.es/">Website</a>
+		<p class="copy-right">© Created by Sergio Glez.</p>
+	</div>    
+</body>
+</html>
